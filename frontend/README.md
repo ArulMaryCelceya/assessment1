@@ -5,7 +5,7 @@
 **Project Name**: assessment1  
 
 Live Demo: [ADD VERCEL URL]  
-GitHub Repository: [ADD GITHUB URL]  
+GitHub Repository: https://github.com/ArulMaryCelceya/assessment1  
 
 ---
 
