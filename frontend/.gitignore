@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+/.pnpm-store
+
+# next.js build output
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+
+# os generated files
+.DS_Store
+Thumbs.db
+
+# large raw dataset binary (keep out of git repository as per assessment instructions)
+*.xlsx
+*.xls

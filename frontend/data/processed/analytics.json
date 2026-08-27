@@ -1,0 +1,3139 @@
+{
+  "daily": [
+    {
+      "date": "2025-06-17",
+      "revenue": 178601.0,
+      "orders": 300,
+      "quantity": 1150
+    },
+    {
+      "date": "2025-06-18",
+      "revenue": 180376.0,
+      "orders": 283,
+      "quantity": 1104
+    },
+    {
+      "date": "2025-06-19",
+      "revenue": 209415.0,
+      "orders": 316,
+      "quantity": 1317
+    },
+    {
+      "date": "2025-06-20",
+      "revenue": 182859.0,
+      "orders": 310,
+      "quantity": 1164
+    },
+    {
+      "date": "2025-06-21",
+      "revenue": 188032.0,
+      "orders": 295,
+      "quantity": 1195
+    },
+    {
+      "date": "2025-06-22",
+      "revenue": 198453.0,
+      "orders": 297,
+      "quantity": 1217
+    },
+    {
+      "date": "2025-06-23",
+      "revenue": 187050.0,
+      "orders": 313,
+      "quantity": 1205
+    },
+    {
+      "date": "2025-06-24",
+      "revenue": 208441.0,
+      "orders": 301,
+      "quantity": 1262
+    },
+    {
+      "date": "2025-06-25",
+      "revenue": 187289.0,
+      "orders": 297,
+      "quantity": 1148
+    },
+    {
+      "date": "2025-06-26",
+      "revenue": 206431.0,
+      "orders": 340,
+      "quantity": 1317
+    },
+    {
+      "date": "2025-06-27",
+      "revenue": 171376.0,
+      "orders": 298,
+      "quantity": 1095
+    },
+    {
+      "date": "2025-06-28",
+      "revenue": 191406.0,
+      "orders": 292,
+      "quantity": 1234
+    },
+    {
+      "date": "2025-06-29",
+      "revenue": 182201.0,
+      "orders": 314,
+      "quantity": 1173
+    },
+    {
+      "date": "2025-06-30",
+      "revenue": 190730.0,
+      "orders": 321,
+      "quantity": 1232
+    },
+    {
+      "date": "2025-07-01",
+      "revenue": 167883.0,
+      "orders": 293,
+      "quantity": 1107
+    },
+    {
+      "date": "2025-07-02",
+      "revenue": 192215.0,
+      "orders": 305,
+      "quantity": 1138
+    },
+    {
+      "date": "2025-07-03",
+      "revenue": 197585.0,
+      "orders": 318,
+      "quantity": 1258
+    },
+    {
+      "date": "2025-07-04",
+      "revenue": 187612.0,
+      "orders": 301,
+      "quantity": 1176
+    },
+    {
+      "date": "2025-07-05",
+      "revenue": 177832.0,
+      "orders": 288,
+      "quantity": 1134
+    },
+    {
+      "date": "2025-07-06",
+      "revenue": 187377.0,
+      "orders": 289,
+      "quantity": 1172
+    },
+    {
+      "date": "2025-07-07",
+      "revenue": 199447.0,
+      "orders": 308,
+      "quantity": 1257
+    },
+    {
+      "date": "2025-07-08",
+      "revenue": 188621.0,
+      "orders": 299,
+      "quantity": 1174
+    },
+    {
+      "date": "2025-07-09",
+      "revenue": 196002.0,
+      "orders": 304,
+      "quantity": 1193
+    },
+    {
+      "date": "2025-07-10",
+      "revenue": 205526.0,
+      "orders": 317,
+      "quantity": 1255
+    },
+    {
+      "date": "2025-07-11",
+      "revenue": 185610.0,
+      "orders": 297,
+      "quantity": 1158
+    },
+    {
+      "date": "2025-07-12",
+      "revenue": 167023.0,
+      "orders": 261,
+      "quantity": 1033
+    },
+    {
+      "date": "2025-07-13",
+      "revenue": 209630.0,
+      "orders": 308,
+      "quantity": 1226
+    },
+    {
+      "date": "2025-07-14",
+      "revenue": 170484.0,
+      "orders": 264,
+      "quantity": 1062
+    },
+    {
+      "date": "2025-07-15",
+      "revenue": 189505.0,
+      "orders": 294,
+      "quantity": 1147
+    },
+    {
+      "date": "2025-07-16",
+      "revenue": 160801.0,
+      "orders": 255,
+      "quantity": 1028
+    },
+    {
+      "date": "2025-07-17",
+      "revenue": 173398.0,
+      "orders": 293,
+      "quantity": 1092
+    },
+    {
+      "date": "2025-07-18",
+      "revenue": 224245.0,
+      "orders": 333,
+      "quantity": 1331
+    },
+    {
+      "date": "2025-07-19",
+      "revenue": 193128.0,
+      "orders": 313,
+      "quantity": 1247
+    },
+    {
+      "date": "2025-07-20",
+      "revenue": 208076.0,
+      "orders": 336,
+      "quantity": 1268
+    },
+    {
+      "date": "2025-07-21",
+      "revenue": 220706.0,
+      "orders": 340,
+      "quantity": 1348
+    },
+    {
+      "date": "2025-07-22",
+      "revenue": 189060.0,
+      "orders": 297,
+      "quantity": 1150
+    },
+    {
+      "date": "2025-07-23",
+      "revenue": 175214.0,
+      "orders": 290,
+      "quantity": 1129
+    },
+    {
+      "date": "2025-07-24",
+      "revenue": 173043.0,
+      "orders": 280,
+      "quantity": 1075
+    },
+    {
+      "date": "2025-07-25",
+      "revenue": 206307.0,
+      "orders": 318,
+      "quantity": 1296
+    },
+    {
+      "date": "2025-07-26",
+      "revenue": 167393.0,
+      "orders": 290,
+      "quantity": 1102
+    },
+    {
+      "date": "2025-07-27",
+      "revenue": 193576.0,
+      "orders": 322,
+      "quantity": 1265
+    },
+    {
+      "date": "2025-07-28",
+      "revenue": 170523.0,
+      "orders": 269,
+      "quantity": 1030
+    },
+    {
+      "date": "2025-07-29",
+      "revenue": 198773.0,
+      "orders": 306,
+      "quantity": 1199
+    },
+    {
+      "date": "2025-07-30",
+      "revenue": 189657.0,
+      "orders": 304,
+      "quantity": 1220
+    },
+    {
+      "date": "2025-07-31",
+      "revenue": 205607.0,
+      "orders": 335,
+      "quantity": 1325
+    },
+    {
+      "date": "2025-08-01",
+      "revenue": 190848.0,
+      "orders": 324,
+      "quantity": 1214
+    },
+    {
+      "date": "2025-08-02",
+      "revenue": 188100.0,
+      "orders": 295,
+      "quantity": 1165
+    },
+    {
+      "date": "2025-08-03",
+      "revenue": 185169.0,
+      "orders": 291,
+      "quantity": 1190
+    },
+    {
+      "date": "2025-08-04",
+      "revenue": 169936.0,
+      "orders": 281,
+      "quantity": 1066
+    },
+    {
+      "date": "2025-08-05",
+      "revenue": 178124.0,
+      "orders": 276,
+      "quantity": 1102
+    },
+    {
+      "date": "2025-08-06",
+      "revenue": 197890.0,
+      "orders": 300,
+      "quantity": 1236
+    },
+    {
+      "date": "2025-08-07",
+      "revenue": 210163.0,
+      "orders": 341,
+      "quantity": 1345
+    },
+    {
+      "date": "2025-08-08",
+      "revenue": 185641.0,
+      "orders": 300,
+      "quantity": 1185
+    },
+    {
+      "date": "2025-08-09",
+      "revenue": 198706.0,
+      "orders": 313,
+      "quantity": 1291
+    },
+    {
+      "date": "2025-08-10",
+      "revenue": 179649.0,
+      "orders": 289,
+      "quantity": 1122
+    },
+    {
+      "date": "2025-08-11",
+      "revenue": 199278.0,
+      "orders": 313,
+      "quantity": 1218
+    },
+    {
+      "date": "2025-08-12",
+      "revenue": 185815.0,
+      "orders": 296,
+      "quantity": 1205
+    },
+    {
+      "date": "2025-08-13",
+      "revenue": 177115.0,
+      "orders": 288,
+      "quantity": 1152
+    },
+    {
+      "date": "2025-08-14",
+      "revenue": 206739.0,
+      "orders": 328,
+      "quantity": 1283
+    },
+    {
+      "date": "2025-08-15",
+      "revenue": 187414.0,
+      "orders": 288,
+      "quantity": 1196
+    },
+    {
+      "date": "2025-08-16",
+      "revenue": 189706.0,
+      "orders": 307,
+      "quantity": 1223
+    },
+    {
+      "date": "2025-08-17",
+      "revenue": 192522.0,
+      "orders": 297,
+      "quantity": 1210
+    },
+    {
+      "date": "2025-08-18",
+      "revenue": 185907.0,
+      "orders": 323,
+      "quantity": 1161
+    },
+    {
+      "date": "2025-08-19",
+      "revenue": 177552.0,
+      "orders": 300,
+      "quantity": 1134
+    },
+    {
+      "date": "2025-08-20",
+      "revenue": 199125.0,
+      "orders": 294,
+      "quantity": 1219
+    },
+    {
+      "date": "2025-08-21",
+      "revenue": 175395.0,
+      "orders": 266,
+      "quantity": 1087
+    },
+    {
+      "date": "2025-08-22",
+      "revenue": 186698.0,
+      "orders": 308,
+      "quantity": 1199
+    },
+    {
+      "date": "2025-08-23",
+      "revenue": 170531.0,
+      "orders": 277,
+      "quantity": 1054
+    },
+    {
+      "date": "2025-08-24",
+      "revenue": 186052.0,
+      "orders": 305,
+      "quantity": 1161
+    },
+    {
+      "date": "2025-08-25",
+      "revenue": 190035.0,
+      "orders": 294,
+      "quantity": 1177
+    },
+    {
+      "date": "2025-08-26",
+      "revenue": 194175.0,
+      "orders": 312,
+      "quantity": 1191
+    },
+    {
+      "date": "2025-08-27",
+      "revenue": 181263.0,
+      "orders": 308,
+      "quantity": 1168
+    },
+    {
+      "date": "2025-08-28",
+      "revenue": 190883.0,
+      "orders": 304,
+      "quantity": 1156
+    },
+    {
+      "date": "2025-08-29",
+      "revenue": 171507.0,
+      "orders": 279,
+      "quantity": 1113
+    },
+    {
+      "date": "2025-08-30",
+      "revenue": 173354.0,
+      "orders": 288,
+      "quantity": 1056
+    },
+    {
+      "date": "2025-08-31",
+      "revenue": 188717.0,
+      "orders": 295,
+      "quantity": 1141
+    },
+    {
+      "date": "2025-09-01",
+      "revenue": 160918.0,
+      "orders": 268,
+      "quantity": 995
+    },
+    {
+      "date": "2025-09-02",
+      "revenue": 195154.0,
+      "orders": 317,
+      "quantity": 1188
+    },
+    {
+      "date": "2025-09-03",
+      "revenue": 218907.0,
+      "orders": 342,
+      "quantity": 1357
+    },
+    {
+      "date": "2025-09-04",
+      "revenue": 178388.0,
+      "orders": 259,
+      "quantity": 1093
+    },
+    {
+      "date": "2025-09-05",
+      "revenue": 216723.0,
+      "orders": 329,
+      "quantity": 1347
+    },
+    {
+      "date": "2025-09-06",
+      "revenue": 196170.0,
+      "orders": 321,
+      "quantity": 1221
+    },
+    {
+      "date": "2025-09-07",
+      "revenue": 191528.0,
+      "orders": 292,
+      "quantity": 1181
+    },
+    {
+      "date": "2025-09-08",
+      "revenue": 214778.0,
+      "orders": 321,
+      "quantity": 1301
+    },
+    {
+      "date": "2025-09-09",
+      "revenue": 188238.0,
+      "orders": 311,
+      "quantity": 1172
+    },
+    {
+      "date": "2025-09-10",
+      "revenue": 180788.0,
+      "orders": 305,
+      "quantity": 1179
+    },
+    {
+      "date": "2025-09-11",
+      "revenue": 205736.0,
+      "orders": 307,
+      "quantity": 1305
+    },
+    {
+      "date": "2025-09-12",
+      "revenue": 195531.0,
+      "orders": 307,
+      "quantity": 1230
+    },
+    {
+      "date": "2025-09-13",
+      "revenue": 173334.0,
+      "orders": 269,
+      "quantity": 1037
+    },
+    {
+      "date": "2025-09-14",
+      "revenue": 205749.0,
+      "orders": 326,
+      "quantity": 1298
+    },
+    {
+      "date": "2025-09-15",
+      "revenue": 190873.0,
+      "orders": 285,
+      "quantity": 1187
+    },
+    {
+      "date": "2025-09-16",
+      "revenue": 206662.0,
+      "orders": 332,
+      "quantity": 1287
+    },
+    {
+      "date": "2025-09-17",
+      "revenue": 195258.0,
+      "orders": 301,
+      "quantity": 1239
+    },
+    {
+      "date": "2025-09-18",
+      "revenue": 213445.0,
+      "orders": 306,
+      "quantity": 1266
+    },
+    {
+      "date": "2025-09-19",
+      "revenue": 200768.0,
+      "orders": 295,
+      "quantity": 1247
+    },
+    {
+      "date": "2025-09-20",
+      "revenue": 196740.0,
+      "orders": 304,
+      "quantity": 1226
+    },
+    {
+      "date": "2025-09-21",
+      "revenue": 209103.0,
+      "orders": 325,
+      "quantity": 1288
+    },
+    {
+      "date": "2025-09-22",
+      "revenue": 211661.0,
+      "orders": 335,
+      "quantity": 1307
+    },
+    {
+      "date": "2025-09-23",
+      "revenue": 192573.0,
+      "orders": 316,
+      "quantity": 1210
+    },
+    {
+      "date": "2025-09-24",
+      "revenue": 201592.0,
+      "orders": 314,
+      "quantity": 1247
+    },
+    {
+      "date": "2025-09-25",
+      "revenue": 194156.0,
+      "orders": 300,
+      "quantity": 1224
+    },
+    {
+      "date": "2025-09-26",
+      "revenue": 186853.0,
+      "orders": 305,
+      "quantity": 1138
+    },
+    {
+      "date": "2025-09-27",
+      "revenue": 183577.0,
+      "orders": 315,
+      "quantity": 1198
+    },
+    {
+      "date": "2025-09-28",
+      "revenue": 194180.0,
+      "orders": 299,
+      "quantity": 1187
+    },
+    {
+      "date": "2025-09-29",
+      "revenue": 213845.0,
+      "orders": 317,
+      "quantity": 1299
+    },
+    {
+      "date": "2025-09-30",
+      "revenue": 191561.0,
+      "orders": 314,
+      "quantity": 1246
+    },
+    {
+      "date": "2025-10-01",
+      "revenue": 172892.0,
+      "orders": 288,
+      "quantity": 1109
+    },
+    {
+      "date": "2025-10-02",
+      "revenue": 198304.0,
+      "orders": 327,
+      "quantity": 1288
+    },
+    {
+      "date": "2025-10-03",
+      "revenue": 191570.0,
+      "orders": 307,
+      "quantity": 1146
+    },
+    {
+      "date": "2025-10-04",
+      "revenue": 185847.0,
+      "orders": 301,
+      "quantity": 1205
+    },
+    {
+      "date": "2025-10-05",
+      "revenue": 192935.0,
+      "orders": 292,
+      "quantity": 1157
+    },
+    {
+      "date": "2025-10-06",
+      "revenue": 198590.0,
+      "orders": 303,
+      "quantity": 1254
+    },
+    {
+      "date": "2025-10-07",
+      "revenue": 187662.0,
+      "orders": 303,
+      "quantity": 1203
+    },
+    {
+      "date": "2025-10-08",
+      "revenue": 176513.0,
+      "orders": 275,
+      "quantity": 1103
+    },
+    {
+      "date": "2025-10-09",
+      "revenue": 194968.0,
+      "orders": 309,
+      "quantity": 1203
+    },
+    {
+      "date": "2025-10-10",
+      "revenue": 178563.0,
+      "orders": 292,
+      "quantity": 1115
+    },
+    {
+      "date": "2025-10-11",
+      "revenue": 195310.0,
+      "orders": 337,
+      "quantity": 1246
+    },
+    {
+      "date": "2025-10-12",
+      "revenue": 194300.0,
+      "orders": 311,
+      "quantity": 1231
+    },
+    {
+      "date": "2025-10-13",
+      "revenue": 195041.0,
+      "orders": 306,
+      "quantity": 1207
+    },
+    {
+      "date": "2025-10-14",
+      "revenue": 184787.0,
+      "orders": 290,
+      "quantity": 1179
+    },
+    {
+      "date": "2025-10-15",
+      "revenue": 195750.0,
+      "orders": 295,
+      "quantity": 1192
+    },
+    {
+      "date": "2025-10-16",
+      "revenue": 204155.0,
+      "orders": 332,
+      "quantity": 1264
+    },
+    {
+      "date": "2025-10-17",
+      "revenue": 180530.0,
+      "orders": 287,
+      "quantity": 1113
+    },
+    {
+      "date": "2025-10-18",
+      "revenue": 201483.0,
+      "orders": 300,
+      "quantity": 1232
+    },
+    {
+      "date": "2025-10-19",
+      "revenue": 184746.0,
+      "orders": 299,
+      "quantity": 1161
+    },
+    {
+      "date": "2025-10-20",
+      "revenue": 160686.0,
+      "orders": 286,
+      "quantity": 1055
+    },
+    {
+      "date": "2025-10-21",
+      "revenue": 184458.0,
+      "orders": 286,
+      "quantity": 1152
+    },
+    {
+      "date": "2025-10-22",
+      "revenue": 199543.0,
+      "orders": 307,
+      "quantity": 1250
+    },
+    {
+      "date": "2025-10-23",
+      "revenue": 192943.0,
+      "orders": 297,
+      "quantity": 1222
+    },
+    {
+      "date": "2025-10-24",
+      "revenue": 199087.0,
+      "orders": 307,
+      "quantity": 1231
+    },
+    {
+      "date": "2025-10-25",
+      "revenue": 178033.0,
+      "orders": 290,
+      "quantity": 1188
+    },
+    {
+      "date": "2025-10-26",
+      "revenue": 200485.0,
+      "orders": 323,
+      "quantity": 1286
+    },
+    {
+      "date": "2025-10-27",
+      "revenue": 229186.0,
+      "orders": 317,
+      "quantity": 1355
+    },
+    {
+      "date": "2025-10-28",
+      "revenue": 191747.0,
+      "orders": 300,
+      "quantity": 1200
+    },
+    {
+      "date": "2025-10-29",
+      "revenue": 223573.0,
+      "orders": 337,
+      "quantity": 1355
+    },
+    {
+      "date": "2025-10-30",
+      "revenue": 171067.0,
+      "orders": 296,
+      "quantity": 1111
+    },
+    {
+      "date": "2025-10-31",
+      "revenue": 206496.0,
+      "orders": 337,
+      "quantity": 1306
+    },
+    {
+      "date": "2025-11-01",
+      "revenue": 181069.0,
+      "orders": 295,
+      "quantity": 1168
+    },
+    {
+      "date": "2025-11-02",
+      "revenue": 226221.0,
+      "orders": 339,
+      "quantity": 1351
+    },
+    {
+      "date": "2025-11-03",
+      "revenue": 182103.0,
+      "orders": 276,
+      "quantity": 1110
+    },
+    {
+      "date": "2025-11-04",
+      "revenue": 174366.0,
+      "orders": 283,
+      "quantity": 1078
+    },
+    {
+      "date": "2025-11-05",
+      "revenue": 192893.0,
+      "orders": 317,
+      "quantity": 1207
+    },
+    {
+      "date": "2025-11-06",
+      "revenue": 199143.0,
+      "orders": 312,
+      "quantity": 1256
+    },
+    {
+      "date": "2025-11-07",
+      "revenue": 220801.0,
+      "orders": 321,
+      "quantity": 1346
+    },
+    {
+      "date": "2025-11-08",
+      "revenue": 185599.0,
+      "orders": 309,
+      "quantity": 1179
+    },
+    {
+      "date": "2025-11-09",
+      "revenue": 190939.0,
+      "orders": 300,
+      "quantity": 1173
+    },
+    {
+      "date": "2025-11-10",
+      "revenue": 202497.0,
+      "orders": 308,
+      "quantity": 1282
+    },
+    {
+      "date": "2025-11-11",
+      "revenue": 213071.0,
+      "orders": 315,
+      "quantity": 1309
+    },
+    {
+      "date": "2025-11-12",
+      "revenue": 180209.0,
+      "orders": 286,
+      "quantity": 1140
+    },
+    {
+      "date": "2025-11-13",
+      "revenue": 191266.0,
+      "orders": 312,
+      "quantity": 1186
+    },
+    {
+      "date": "2025-11-14",
+      "revenue": 190208.0,
+      "orders": 299,
+      "quantity": 1197
+    },
+    {
+      "date": "2025-11-15",
+      "revenue": 186666.0,
+      "orders": 310,
+      "quantity": 1144
+    },
+    {
+      "date": "2025-11-16",
+      "revenue": 179617.0,
+      "orders": 293,
+      "quantity": 1141
+    },
+    {
+      "date": "2025-11-17",
+      "revenue": 199840.0,
+      "orders": 293,
+      "quantity": 1227
+    },
+    {
+      "date": "2025-11-18",
+      "revenue": 209244.0,
+      "orders": 341,
+      "quantity": 1291
+    },
+    {
+      "date": "2025-11-19",
+      "revenue": 171459.0,
+      "orders": 293,
+      "quantity": 1116
+    },
+    {
+      "date": "2025-11-20",
+      "revenue": 188012.0,
+      "orders": 299,
+      "quantity": 1156
+    },
+    {
+      "date": "2025-11-21",
+      "revenue": 182968.0,
+      "orders": 275,
+      "quantity": 1092
+    },
+    {
+      "date": "2025-11-22",
+      "revenue": 185634.0,
+      "orders": 307,
+      "quantity": 1219
+    },
+    {
+      "date": "2025-11-23",
+      "revenue": 194431.0,
+      "orders": 295,
+      "quantity": 1187
+    },
+    {
+      "date": "2025-11-24",
+      "revenue": 179860.0,
+      "orders": 286,
+      "quantity": 1099
+    },
+    {
+      "date": "2025-11-25",
+      "revenue": 201087.0,
+      "orders": 311,
+      "quantity": 1229
+    },
+    {
+      "date": "2025-11-26",
+      "revenue": 188752.0,
+      "orders": 317,
+      "quantity": 1193
+    },
+    {
+      "date": "2025-11-27",
+      "revenue": 155107.0,
+      "orders": 254,
+      "quantity": 1007
+    },
+    {
+      "date": "2025-11-28",
+      "revenue": 201241.0,
+      "orders": 300,
+      "quantity": 1205
+    },
+    {
+      "date": "2025-11-29",
+      "revenue": 191125.0,
+      "orders": 274,
+      "quantity": 1143
+    },
+    {
+      "date": "2025-11-30",
+      "revenue": 209134.0,
+      "orders": 309,
+      "quantity": 1299
+    },
+    {
+      "date": "2025-12-01",
+      "revenue": 194134.0,
+      "orders": 319,
+      "quantity": 1262
+    },
+    {
+      "date": "2025-12-02",
+      "revenue": 190036.0,
+      "orders": 303,
+      "quantity": 1181
+    },
+    {
+      "date": "2025-12-03",
+      "revenue": 187596.0,
+      "orders": 282,
+      "quantity": 1116
+    },
+    {
+      "date": "2025-12-04",
+      "revenue": 207435.0,
+      "orders": 320,
+      "quantity": 1253
+    },
+    {
+      "date": "2025-12-05",
+      "revenue": 185083.0,
+      "orders": 307,
+      "quantity": 1206
+    },
+    {
+      "date": "2025-12-06",
+      "revenue": 179650.0,
+      "orders": 288,
+      "quantity": 1102
+    },
+    {
+      "date": "2025-12-07",
+      "revenue": 163786.0,
+      "orders": 280,
+      "quantity": 1067
+    },
+    {
+      "date": "2025-12-08",
+      "revenue": 203412.0,
+      "orders": 317,
+      "quantity": 1274
+    },
+    {
+      "date": "2025-12-09",
+      "revenue": 191466.0,
+      "orders": 304,
+      "quantity": 1183
+    },
+    {
+      "date": "2025-12-10",
+      "revenue": 180134.0,
+      "orders": 298,
+      "quantity": 1153
+    },
+    {
+      "date": "2025-12-11",
+      "revenue": 193305.0,
+      "orders": 305,
+      "quantity": 1256
+    },
+    {
+      "date": "2025-12-12",
+      "revenue": 181317.0,
+      "orders": 299,
+      "quantity": 1166
+    },
+    {
+      "date": "2025-12-13",
+      "revenue": 198377.0,
+      "orders": 305,
+      "quantity": 1199
+    },
+    {
+      "date": "2025-12-14",
+      "revenue": 206565.0,
+      "orders": 307,
+      "quantity": 1239
+    },
+    {
+      "date": "2025-12-15",
+      "revenue": 202662.0,
+      "orders": 332,
+      "quantity": 1262
+    },
+    {
+      "date": "2025-12-16",
+      "revenue": 184510.0,
+      "orders": 271,
+      "quantity": 1121
+    },
+    {
+      "date": "2025-12-17",
+      "revenue": 175989.0,
+      "orders": 283,
+      "quantity": 1084
+    },
+    {
+      "date": "2025-12-18",
+      "revenue": 168821.0,
+      "orders": 269,
+      "quantity": 1076
+    },
+    {
+      "date": "2025-12-19",
+      "revenue": 181924.0,
+      "orders": 292,
+      "quantity": 1135
+    },
+    {
+      "date": "2025-12-20",
+      "revenue": 167314.0,
+      "orders": 271,
+      "quantity": 1045
+    },
+    {
+      "date": "2025-12-21",
+      "revenue": 189424.0,
+      "orders": 282,
+      "quantity": 1122
+    },
+    {
+      "date": "2025-12-22",
+      "revenue": 193075.0,
+      "orders": 297,
+      "quantity": 1211
+    },
+    {
+      "date": "2025-12-23",
+      "revenue": 204920.0,
+      "orders": 327,
+      "quantity": 1295
+    },
+    {
+      "date": "2025-12-24",
+      "revenue": 186291.0,
+      "orders": 311,
+      "quantity": 1178
+    },
+    {
+      "date": "2025-12-25",
+      "revenue": 175295.0,
+      "orders": 290,
+      "quantity": 1140
+    },
+    {
+      "date": "2025-12-26",
+      "revenue": 209774.0,
+      "orders": 328,
+      "quantity": 1283
+    },
+    {
+      "date": "2025-12-27",
+      "revenue": 206051.0,
+      "orders": 342,
+      "quantity": 1279
+    },
+    {
+      "date": "2025-12-28",
+      "revenue": 195355.0,
+      "orders": 322,
+      "quantity": 1263
+    },
+    {
+      "date": "2025-12-29",
+      "revenue": 186478.0,
+      "orders": 300,
+      "quantity": 1143
+    },
+    {
+      "date": "2025-12-30",
+      "revenue": 190414.0,
+      "orders": 299,
+      "quantity": 1193
+    },
+    {
+      "date": "2025-12-31",
+      "revenue": 200062.0,
+      "orders": 307,
+      "quantity": 1213
+    },
+    {
+      "date": "2026-01-01",
+      "revenue": 196418.0,
+      "orders": 315,
+      "quantity": 1253
+    },
+    {
+      "date": "2026-01-02",
+      "revenue": 178843.0,
+      "orders": 287,
+      "quantity": 1114
+    },
+    {
+      "date": "2026-01-03",
+      "revenue": 190356.0,
+      "orders": 291,
+      "quantity": 1194
+    },
+    {
+      "date": "2026-01-04",
+      "revenue": 172136.0,
+      "orders": 270,
+      "quantity": 1020
+    },
+    {
+      "date": "2026-01-05",
+      "revenue": 199667.0,
+      "orders": 317,
+      "quantity": 1255
+    },
+    {
+      "date": "2026-01-06",
+      "revenue": 188565.0,
+      "orders": 294,
+      "quantity": 1146
+    },
+    {
+      "date": "2026-01-07",
+      "revenue": 168704.0,
+      "orders": 273,
+      "quantity": 1111
+    },
+    {
+      "date": "2026-01-08",
+      "revenue": 174700.0,
+      "orders": 281,
+      "quantity": 1075
+    },
+    {
+      "date": "2026-01-09",
+      "revenue": 194717.0,
+      "orders": 325,
+      "quantity": 1237
+    },
+    {
+      "date": "2026-01-10",
+      "revenue": 182678.0,
+      "orders": 311,
+      "quantity": 1169
+    },
+    {
+      "date": "2026-01-11",
+      "revenue": 185951.0,
+      "orders": 288,
+      "quantity": 1133
+    },
+    {
+      "date": "2026-01-12",
+      "revenue": 161424.0,
+      "orders": 280,
+      "quantity": 1028
+    },
+    {
+      "date": "2026-01-13",
+      "revenue": 190868.0,
+      "orders": 298,
+      "quantity": 1183
+    },
+    {
+      "date": "2026-01-14",
+      "revenue": 221841.0,
+      "orders": 326,
+      "quantity": 1379
+    },
+    {
+      "date": "2026-01-15",
+      "revenue": 163019.0,
+      "orders": 283,
+      "quantity": 1089
+    },
+    {
+      "date": "2026-01-16",
+      "revenue": 208899.0,
+      "orders": 319,
+      "quantity": 1253
+    },
+    {
+      "date": "2026-01-17",
+      "revenue": 226884.0,
+      "orders": 348,
+      "quantity": 1434
+    },
+    {
+      "date": "2026-01-18",
+      "revenue": 172516.0,
+      "orders": 287,
+      "quantity": 1083
+    },
+    {
+      "date": "2026-01-19",
+      "revenue": 154943.0,
+      "orders": 254,
+      "quantity": 981
+    },
+    {
+      "date": "2026-01-20",
+      "revenue": 192269.0,
+      "orders": 309,
+      "quantity": 1206
+    },
+    {
+      "date": "2026-01-21",
+      "revenue": 181237.0,
+      "orders": 273,
+      "quantity": 1125
+    },
+    {
+      "date": "2026-01-22",
+      "revenue": 205458.0,
+      "orders": 319,
+      "quantity": 1252
+    },
+    {
+      "date": "2026-01-23",
+      "revenue": 187710.0,
+      "orders": 305,
+      "quantity": 1198
+    },
+    {
+      "date": "2026-01-24",
+      "revenue": 203884.0,
+      "orders": 314,
+      "quantity": 1284
+    },
+    {
+      "date": "2026-01-25",
+      "revenue": 220988.0,
+      "orders": 327,
+      "quantity": 1367
+    },
+    {
+      "date": "2026-01-26",
+      "revenue": 176942.0,
+      "orders": 272,
+      "quantity": 1119
+    },
+    {
+      "date": "2026-01-27",
+      "revenue": 195973.0,
+      "orders": 315,
+      "quantity": 1235
+    },
+    {
+      "date": "2026-01-28",
+      "revenue": 174491.0,
+      "orders": 299,
+      "quantity": 1097
+    },
+    {
+      "date": "2026-01-29",
+      "revenue": 224770.0,
+      "orders": 331,
+      "quantity": 1412
+    },
+    {
+      "date": "2026-01-30",
+      "revenue": 194257.0,
+      "orders": 303,
+      "quantity": 1170
+    },
+    {
+      "date": "2026-01-31",
+      "revenue": 191800.0,
+      "orders": 288,
+      "quantity": 1186
+    },
+    {
+      "date": "2026-02-01",
+      "revenue": 176504.0,
+      "orders": 295,
+      "quantity": 1123
+    },
+    {
+      "date": "2026-02-02",
+      "revenue": 174662.0,
+      "orders": 283,
+      "quantity": 1067
+    },
+    {
+      "date": "2026-02-03",
+      "revenue": 176629.0,
+      "orders": 281,
+      "quantity": 1084
+    },
+    {
+      "date": "2026-02-04",
+      "revenue": 160679.0,
+      "orders": 284,
+      "quantity": 1048
+    },
+    {
+      "date": "2026-02-05",
+      "revenue": 181661.0,
+      "orders": 281,
+      "quantity": 1177
+    },
+    {
+      "date": "2026-02-06",
+      "revenue": 214037.0,
+      "orders": 311,
+      "quantity": 1329
+    },
+    {
+      "date": "2026-02-07",
+      "revenue": 174817.0,
+      "orders": 286,
+      "quantity": 1064
+    },
+    {
+      "date": "2026-02-08",
+      "revenue": 214203.0,
+      "orders": 331,
+      "quantity": 1325
+    },
+    {
+      "date": "2026-02-09",
+      "revenue": 182681.0,
+      "orders": 295,
+      "quantity": 1146
+    },
+    {
+      "date": "2026-02-10",
+      "revenue": 176258.0,
+      "orders": 299,
+      "quantity": 1133
+    },
+    {
+      "date": "2026-02-11",
+      "revenue": 186904.0,
+      "orders": 295,
+      "quantity": 1174
+    },
+    {
+      "date": "2026-02-12",
+      "revenue": 179629.0,
+      "orders": 274,
+      "quantity": 1110
+    },
+    {
+      "date": "2026-02-13",
+      "revenue": 231506.0,
+      "orders": 363,
+      "quantity": 1443
+    },
+    {
+      "date": "2026-02-14",
+      "revenue": 193026.0,
+      "orders": 317,
+      "quantity": 1193
+    },
+    {
+      "date": "2026-02-15",
+      "revenue": 189434.0,
+      "orders": 311,
+      "quantity": 1213
+    },
+    {
+      "date": "2026-02-16",
+      "revenue": 176800.0,
+      "orders": 298,
+      "quantity": 1100
+    },
+    {
+      "date": "2026-02-17",
+      "revenue": 206824.0,
+      "orders": 325,
+      "quantity": 1311
+    },
+    {
+      "date": "2026-02-18",
+      "revenue": 173327.0,
+      "orders": 271,
+      "quantity": 1059
+    },
+    {
+      "date": "2026-02-19",
+      "revenue": 188525.0,
+      "orders": 310,
+      "quantity": 1200
+    },
+    {
+      "date": "2026-02-20",
+      "revenue": 190427.0,
+      "orders": 308,
+      "quantity": 1215
+    },
+    {
+      "date": "2026-02-21",
+      "revenue": 179509.0,
+      "orders": 292,
+      "quantity": 1140
+    },
+    {
+      "date": "2026-02-22",
+      "revenue": 193206.0,
+      "orders": 307,
+      "quantity": 1156
+    },
+    {
+      "date": "2026-02-23",
+      "revenue": 214627.0,
+      "orders": 336,
+      "quantity": 1274
+    },
+    {
+      "date": "2026-02-24",
+      "revenue": 181606.0,
+      "orders": 300,
+      "quantity": 1141
+    },
+    {
+      "date": "2026-02-25",
+      "revenue": 183036.0,
+      "orders": 290,
+      "quantity": 1177
+    },
+    {
+      "date": "2026-02-26",
+      "revenue": 176371.0,
+      "orders": 292,
+      "quantity": 1114
+    },
+    {
+      "date": "2026-02-27",
+      "revenue": 193459.0,
+      "orders": 308,
+      "quantity": 1177
+    },
+    {
+      "date": "2026-02-28",
+      "revenue": 176661.0,
+      "orders": 280,
+      "quantity": 1116
+    },
+    {
+      "date": "2026-03-01",
+      "revenue": 178808.0,
+      "orders": 284,
+      "quantity": 1103
+    },
+    {
+      "date": "2026-03-02",
+      "revenue": 191437.0,
+      "orders": 299,
+      "quantity": 1170
+    },
+    {
+      "date": "2026-03-03",
+      "revenue": 179445.0,
+      "orders": 295,
+      "quantity": 1160
+    },
+    {
+      "date": "2026-03-04",
+      "revenue": 171031.0,
+      "orders": 288,
+      "quantity": 1098
+    },
+    {
+      "date": "2026-03-05",
+      "revenue": 217784.0,
+      "orders": 340,
+      "quantity": 1333
+    },
+    {
+      "date": "2026-03-06",
+      "revenue": 201561.0,
+      "orders": 328,
+      "quantity": 1292
+    },
+    {
+      "date": "2026-03-07",
+      "revenue": 196786.0,
+      "orders": 310,
+      "quantity": 1215
+    },
+    {
+      "date": "2026-03-08",
+      "revenue": 167438.0,
+      "orders": 286,
+      "quantity": 1097
+    },
+    {
+      "date": "2026-03-09",
+      "revenue": 166224.0,
+      "orders": 292,
+      "quantity": 1095
+    },
+    {
+      "date": "2026-03-10",
+      "revenue": 184230.0,
+      "orders": 288,
+      "quantity": 1161
+    },
+    {
+      "date": "2026-03-11",
+      "revenue": 189198.0,
+      "orders": 312,
+      "quantity": 1226
+    },
+    {
+      "date": "2026-03-12",
+      "revenue": 196090.0,
+      "orders": 300,
+      "quantity": 1201
+    },
+    {
+      "date": "2026-03-13",
+      "revenue": 195520.0,
+      "orders": 299,
+      "quantity": 1175
+    },
+    {
+      "date": "2026-03-14",
+      "revenue": 188086.0,
+      "orders": 314,
+      "quantity": 1166
+    },
+    {
+      "date": "2026-03-15",
+      "revenue": 187534.0,
+      "orders": 312,
+      "quantity": 1183
+    },
+    {
+      "date": "2026-03-16",
+      "revenue": 184217.0,
+      "orders": 313,
+      "quantity": 1198
+    },
+    {
+      "date": "2026-03-17",
+      "revenue": 184269.0,
+      "orders": 290,
+      "quantity": 1155
+    },
+    {
+      "date": "2026-03-18",
+      "revenue": 164725.0,
+      "orders": 300,
+      "quantity": 1029
+    },
+    {
+      "date": "2026-03-19",
+      "revenue": 187812.0,
+      "orders": 284,
+      "quantity": 1149
+    },
+    {
+      "date": "2026-03-20",
+      "revenue": 186492.0,
+      "orders": 302,
+      "quantity": 1180
+    },
+    {
+      "date": "2026-03-21",
+      "revenue": 175549.0,
+      "orders": 286,
+      "quantity": 1100
+    },
+    {
+      "date": "2026-03-22",
+      "revenue": 189706.0,
+      "orders": 297,
+      "quantity": 1187
+    },
+    {
+      "date": "2026-03-23",
+      "revenue": 174447.0,
+      "orders": 269,
+      "quantity": 1042
+    },
+    {
+      "date": "2026-03-24",
+      "revenue": 159159.0,
+      "orders": 273,
+      "quantity": 1046
+    },
+    {
+      "date": "2026-03-25",
+      "revenue": 211897.0,
+      "orders": 317,
+      "quantity": 1278
+    },
+    {
+      "date": "2026-03-26",
+      "revenue": 195007.0,
+      "orders": 320,
+      "quantity": 1251
+    },
+    {
+      "date": "2026-03-27",
+      "revenue": 190919.0,
+      "orders": 320,
+      "quantity": 1174
+    },
+    {
+      "date": "2026-03-28",
+      "revenue": 175991.0,
+      "orders": 300,
+      "quantity": 1158
+    },
+    {
+      "date": "2026-03-29",
+      "revenue": 212577.0,
+      "orders": 317,
+      "quantity": 1309
+    },
+    {
+      "date": "2026-03-30",
+      "revenue": 201794.0,
+      "orders": 314,
+      "quantity": 1286
+    },
+    {
+      "date": "2026-03-31",
+      "revenue": 185184.0,
+      "orders": 305,
+      "quantity": 1171
+    },
+    {
+      "date": "2026-04-01",
+      "revenue": 197541.0,
+      "orders": 299,
+      "quantity": 1195
+    },
+    {
+      "date": "2026-04-02",
+      "revenue": 173825.0,
+      "orders": 287,
+      "quantity": 1110
+    },
+    {
+      "date": "2026-04-03",
+      "revenue": 175048.0,
+      "orders": 279,
+      "quantity": 1111
+    },
+    {
+      "date": "2026-04-04",
+      "revenue": 164405.0,
+      "orders": 264,
+      "quantity": 1004
+    },
+    {
+      "date": "2026-04-05",
+      "revenue": 172939.0,
+      "orders": 273,
+      "quantity": 1087
+    },
+    {
+      "date": "2026-04-06",
+      "revenue": 205936.0,
+      "orders": 317,
+      "quantity": 1291
+    },
+    {
+      "date": "2026-04-07",
+      "revenue": 188234.0,
+      "orders": 293,
+      "quantity": 1182
+    },
+    {
+      "date": "2026-04-08",
+      "revenue": 201328.0,
+      "orders": 321,
+      "quantity": 1257
+    },
+    {
+      "date": "2026-04-09",
+      "revenue": 187808.0,
+      "orders": 305,
+      "quantity": 1197
+    },
+    {
+      "date": "2026-04-10",
+      "revenue": 176546.0,
+      "orders": 282,
+      "quantity": 1080
+    },
+    {
+      "date": "2026-04-11",
+      "revenue": 198773.0,
+      "orders": 320,
+      "quantity": 1256
+    },
+    {
+      "date": "2026-04-12",
+      "revenue": 204805.0,
+      "orders": 328,
+      "quantity": 1287
+    },
+    {
+      "date": "2026-04-13",
+      "revenue": 169109.0,
+      "orders": 277,
+      "quantity": 1084
+    },
+    {
+      "date": "2026-04-14",
+      "revenue": 188894.0,
+      "orders": 312,
+      "quantity": 1196
+    },
+    {
+      "date": "2026-04-15",
+      "revenue": 207920.0,
+      "orders": 316,
+      "quantity": 1304
+    },
+    {
+      "date": "2026-04-16",
+      "revenue": 204384.0,
+      "orders": 301,
+      "quantity": 1290
+    },
+    {
+      "date": "2026-04-17",
+      "revenue": 196996.0,
+      "orders": 293,
+      "quantity": 1201
+    },
+    {
+      "date": "2026-04-18",
+      "revenue": 204901.0,
+      "orders": 320,
+      "quantity": 1241
+    },
+    {
+      "date": "2026-04-19",
+      "revenue": 183296.0,
+      "orders": 291,
+      "quantity": 1104
+    },
+    {
+      "date": "2026-04-20",
+      "revenue": 184141.0,
+      "orders": 301,
+      "quantity": 1178
+    },
+    {
+      "date": "2026-04-21",
+      "revenue": 185880.0,
+      "orders": 280,
+      "quantity": 1121
+    },
+    {
+      "date": "2026-04-22",
+      "revenue": 180687.0,
+      "orders": 307,
+      "quantity": 1165
+    },
+    {
+      "date": "2026-04-23",
+      "revenue": 176263.0,
+      "orders": 302,
+      "quantity": 1114
+    },
+    {
+      "date": "2026-04-24",
+      "revenue": 202584.0,
+      "orders": 322,
+      "quantity": 1310
+    },
+    {
+      "date": "2026-04-25",
+      "revenue": 193684.0,
+      "orders": 306,
+      "quantity": 1181
+    },
+    {
+      "date": "2026-04-26",
+      "revenue": 191763.0,
+      "orders": 294,
+      "quantity": 1199
+    },
+    {
+      "date": "2026-04-27",
+      "revenue": 200257.0,
+      "orders": 310,
+      "quantity": 1217
+    },
+    {
+      "date": "2026-04-28",
+      "revenue": 175472.0,
+      "orders": 285,
+      "quantity": 1101
+    },
+    {
+      "date": "2026-04-29",
+      "revenue": 170926.0,
+      "orders": 292,
+      "quantity": 1139
+    },
+    {
+      "date": "2026-04-30",
+      "revenue": 201788.0,
+      "orders": 322,
+      "quantity": 1272
+    },
+    {
+      "date": "2026-05-01",
+      "revenue": 199892.0,
+      "orders": 302,
+      "quantity": 1217
+    },
+    {
+      "date": "2026-05-02",
+      "revenue": 159971.0,
+      "orders": 290,
+      "quantity": 1078
+    },
+    {
+      "date": "2026-05-03",
+      "revenue": 181151.0,
+      "orders": 291,
+      "quantity": 1161
+    },
+    {
+      "date": "2026-05-04",
+      "revenue": 184574.0,
+      "orders": 305,
+      "quantity": 1155
+    },
+    {
+      "date": "2026-05-05",
+      "revenue": 206533.0,
+      "orders": 328,
+      "quantity": 1299
+    },
+    {
+      "date": "2026-05-06",
+      "revenue": 189428.0,
+      "orders": 298,
+      "quantity": 1181
+    },
+    {
+      "date": "2026-05-07",
+      "revenue": 219946.0,
+      "orders": 336,
+      "quantity": 1350
+    },
+    {
+      "date": "2026-05-08",
+      "revenue": 192863.0,
+      "orders": 296,
+      "quantity": 1226
+    },
+    {
+      "date": "2026-05-09",
+      "revenue": 198896.0,
+      "orders": 327,
+      "quantity": 1187
+    },
+    {
+      "date": "2026-05-10",
+      "revenue": 161995.0,
+      "orders": 277,
+      "quantity": 1081
+    },
+    {
+      "date": "2026-05-11",
+      "revenue": 196500.0,
+      "orders": 307,
+      "quantity": 1215
+    },
+    {
+      "date": "2026-05-12",
+      "revenue": 197779.0,
+      "orders": 317,
+      "quantity": 1211
+    },
+    {
+      "date": "2026-05-13",
+      "revenue": 210814.0,
+      "orders": 327,
+      "quantity": 1286
+    },
+    {
+      "date": "2026-05-14",
+      "revenue": 169132.0,
+      "orders": 280,
+      "quantity": 1048
+    },
+    {
+      "date": "2026-05-15",
+      "revenue": 184729.0,
+      "orders": 310,
+      "quantity": 1214
+    },
+    {
+      "date": "2026-05-16",
+      "revenue": 205030.0,
+      "orders": 327,
+      "quantity": 1305
+    },
+    {
+      "date": "2026-05-17",
+      "revenue": 177757.0,
+      "orders": 289,
+      "quantity": 1108
+    },
+    {
+      "date": "2026-05-18",
+      "revenue": 198646.0,
+      "orders": 308,
+      "quantity": 1241
+    },
+    {
+      "date": "2026-05-19",
+      "revenue": 206244.0,
+      "orders": 325,
+      "quantity": 1286
+    },
+    {
+      "date": "2026-05-20",
+      "revenue": 184467.0,
+      "orders": 297,
+      "quantity": 1141
+    },
+    {
+      "date": "2026-05-21",
+      "revenue": 176651.0,
+      "orders": 287,
+      "quantity": 1090
+    },
+    {
+      "date": "2026-05-22",
+      "revenue": 189449.0,
+      "orders": 292,
+      "quantity": 1189
+    },
+    {
+      "date": "2026-05-23",
+      "revenue": 184882.0,
+      "orders": 301,
+      "quantity": 1181
+    },
+    {
+      "date": "2026-05-24",
+      "revenue": 208368.0,
+      "orders": 328,
+      "quantity": 1301
+    },
+    {
+      "date": "2026-05-25",
+      "revenue": 180082.0,
+      "orders": 279,
+      "quantity": 1087
+    },
+    {
+      "date": "2026-05-26",
+      "revenue": 195642.0,
+      "orders": 318,
+      "quantity": 1228
+    },
+    {
+      "date": "2026-05-27",
+      "revenue": 219596.0,
+      "orders": 355,
+      "quantity": 1389
+    },
+    {
+      "date": "2026-05-28",
+      "revenue": 210964.0,
+      "orders": 326,
+      "quantity": 1301
+    },
+    {
+      "date": "2026-05-29",
+      "revenue": 186507.0,
+      "orders": 311,
+      "quantity": 1239
+    },
+    {
+      "date": "2026-05-30",
+      "revenue": 202723.0,
+      "orders": 307,
+      "quantity": 1248
+    },
+    {
+      "date": "2026-05-31",
+      "revenue": 178967.0,
+      "orders": 288,
+      "quantity": 1130
+    },
+    {
+      "date": "2026-06-01",
+      "revenue": 188597.0,
+      "orders": 295,
+      "quantity": 1157
+    },
+    {
+      "date": "2026-06-02",
+      "revenue": 211834.0,
+      "orders": 330,
+      "quantity": 1321
+    },
+    {
+      "date": "2026-06-03",
+      "revenue": 213711.0,
+      "orders": 319,
+      "quantity": 1277
+    },
+    {
+      "date": "2026-06-04",
+      "revenue": 183615.0,
+      "orders": 287,
+      "quantity": 1113
+    },
+    {
+      "date": "2026-06-05",
+      "revenue": 213850.0,
+      "orders": 328,
+      "quantity": 1333
+    },
+    {
+      "date": "2026-06-06",
+      "revenue": 193156.0,
+      "orders": 302,
+      "quantity": 1212
+    },
+    {
+      "date": "2026-06-07",
+      "revenue": 197128.0,
+      "orders": 335,
+      "quantity": 1271
+    },
+    {
+      "date": "2026-06-08",
+      "revenue": 197189.0,
+      "orders": 317,
+      "quantity": 1238
+    },
+    {
+      "date": "2026-06-09",
+      "revenue": 201377.0,
+      "orders": 319,
+      "quantity": 1230
+    },
+    {
+      "date": "2026-06-10",
+      "revenue": 194143.0,
+      "orders": 300,
+      "quantity": 1224
+    },
+    {
+      "date": "2026-06-11",
+      "revenue": 192790.0,
+      "orders": 303,
+      "quantity": 1171
+    },
+    {
+      "date": "2026-06-12",
+      "revenue": 188721.0,
+      "orders": 313,
+      "quantity": 1169
+    },
+    {
+      "date": "2026-06-13",
+      "revenue": 169461.0,
+      "orders": 282,
+      "quantity": 1103
+    },
+    {
+      "date": "2026-06-14",
+      "revenue": 194332.0,
+      "orders": 309,
+      "quantity": 1182
+    },
+    {
+      "date": "2026-06-15",
+      "revenue": 188261.0,
+      "orders": 304,
+      "quantity": 1219
+    },
+    {
+      "date": "2026-06-16",
+      "revenue": 185859.0,
+      "orders": 284,
+      "quantity": 1119
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2025-06",
+      "revenue": 2662660.0,
+      "orders": 4277,
+      "quantity": 16813
+    },
+    {
+      "month": "2025-07",
+      "revenue": 5871859.0,
+      "orders": 9327,
+      "quantity": 36595
+    },
+    {
+      "month": "2025-08",
+      "revenue": 5794009.0,
+      "orders": 9280,
+      "quantity": 36420
+    },
+    {
+      "month": "2025-09",
+      "revenue": 5904789.0,
+      "orders": 9237,
+      "quantity": 36700
+    },
+    {
+      "month": "2025-10",
+      "revenue": 5951250.0,
+      "orders": 9437,
+      "quantity": 37319
+    },
+    {
+      "month": "2025-11",
+      "revenue": 5754562.0,
+      "orders": 9029,
+      "quantity": 35730
+    },
+    {
+      "month": "2025-12",
+      "revenue": 5880655.0,
+      "orders": 9357,
+      "quantity": 36700
+    },
+    {
+      "month": "2026-01",
+      "revenue": 5882908.0,
+      "orders": 9302,
+      "quantity": 36788
+    },
+    {
+      "month": "2026-02",
+      "revenue": 5247008.0,
+      "orders": 8423,
+      "quantity": 32809
+    },
+    {
+      "month": "2026-03",
+      "revenue": 5790917.0,
+      "orders": 9354,
+      "quantity": 36388
+    },
+    {
+      "month": "2026-04",
+      "revenue": 5666133.0,
+      "orders": 8999,
+      "quantity": 35474
+    },
+    {
+      "month": "2026-05",
+      "revenue": 5960178.0,
+      "orders": 9529,
+      "quantity": 37373
+    },
+    {
+      "month": "2026-06",
+      "revenue": 3114024.0,
+      "orders": 4927,
+      "quantity": 19339
+    }
+  ],
+  "weekly": [
+    {
+      "week": "2025-W24",
+      "revenue": 939283.0,
+      "orders": 1504,
+      "quantity": 5930
+    },
+    {
+      "week": "2025-W25",
+      "revenue": 1350446.0,
+      "orders": 2138,
+      "quantity": 8478
+    },
+    {
+      "week": "2025-W26",
+      "revenue": 1296058.0,
+      "orders": 2140,
+      "quantity": 8218
+    },
+    {
+      "week": "2025-W27",
+      "revenue": 1329606.0,
+      "orders": 2075,
+      "quantity": 8242
+    },
+    {
+      "week": "2025-W28",
+      "revenue": 1321191.0,
+      "orders": 2060,
+      "quantity": 8133
+    },
+    {
+      "week": "2025-W29",
+      "revenue": 1339799.0,
+      "orders": 2151,
+      "quantity": 8368
+    },
+    {
+      "week": "2025-W30",
+      "revenue": 1337084.0,
+      "orders": 2155,
+      "quantity": 8418
+    },
+    {
+      "week": "2025-W31",
+      "revenue": 1325629.0,
+      "orders": 2102,
+      "quantity": 8415
+    },
+    {
+      "week": "2025-W32",
+      "revenue": 1325716.0,
+      "orders": 2109,
+      "quantity": 8399
+    },
+    {
+      "week": "2025-W33",
+      "revenue": 1287730.0,
+      "orders": 2065,
+      "quantity": 8064
+    },
+    {
+      "week": "2025-W34",
+      "revenue": 1287269.0,
+      "orders": 2090,
+      "quantity": 8022
+    },
+    {
+      "week": "2025-W35",
+      "revenue": 1354977.0,
+      "orders": 2131,
+      "quantity": 8342
+    },
+    {
+      "week": "2025-W36",
+      "revenue": 1349933.0,
+      "orders": 2112,
+      "quantity": 8405
+    },
+    {
+      "week": "2025-W37",
+      "revenue": 1409495.0,
+      "orders": 2149,
+      "quantity": 8750
+    },
+    {
+      "week": "2025-W38",
+      "revenue": 1379515.0,
+      "orders": 2210,
+      "quantity": 8612
+    },
+    {
+      "week": "2025-W39",
+      "revenue": 1348199.0,
+      "orders": 2153,
+      "quantity": 8480
+    },
+    {
+      "week": "2025-W40",
+      "revenue": 1324541.0,
+      "orders": 2111,
+      "quantity": 8281
+    },
+    {
+      "week": "2025-W41",
+      "revenue": 1356046.0,
+      "orders": 2121,
+      "quantity": 8418
+    },
+    {
+      "week": "2025-W42",
+      "revenue": 1299496.0,
+      "orders": 2072,
+      "quantity": 8259
+    },
+    {
+      "week": "2025-W43",
+      "revenue": 1403623.0,
+      "orders": 2205,
+      "quantity": 8781
+    },
+    {
+      "week": "2025-W44",
+      "revenue": 1381126.0,
+      "orders": 2157,
+      "quantity": 8527
+    },
+    {
+      "week": "2025-W45",
+      "revenue": 1354856.0,
+      "orders": 2130,
+      "quantity": 8431
+    },
+    {
+      "week": "2025-W46",
+      "revenue": 1316774.0,
+      "orders": 2101,
+      "quantity": 8242
+    },
+    {
+      "week": "2025-W47",
+      "revenue": 1311603.0,
+      "orders": 2037,
+      "quantity": 8063
+    },
+    {
+      "week": "2025-W48",
+      "revenue": 1353068.0,
+      "orders": 2128,
+      "quantity": 8419
+    },
+    {
+      "week": "2025-W49",
+      "revenue": 1311797.0,
+      "orders": 2108,
+      "quantity": 8298
+    },
+    {
+      "week": "2025-W50",
+      "revenue": 1287785.0,
+      "orders": 2025,
+      "quantity": 7962
+    },
+    {
+      "week": "2025-W51",
+      "revenue": 1364830.0,
+      "orders": 2177,
+      "quantity": 8508
+    },
+    {
+      "week": "2025-W52",
+      "revenue": 772309.0,
+      "orders": 1228,
+      "quantity": 4812
+    },
+    {
+      "week": "2026-W00",
+      "revenue": 565617.0,
+      "orders": 893,
+      "quantity": 3561
+    },
+    {
+      "week": "2026-W01",
+      "revenue": 1281167.0,
+      "orders": 2071,
+      "quantity": 8013
+    },
+    {
+      "week": "2026-W02",
+      "revenue": 1358886.0,
+      "orders": 2142,
+      "quantity": 8499
+    },
+    {
+      "week": "2026-W03",
+      "revenue": 1298017.0,
+      "orders": 2061,
+      "quantity": 8129
+    },
+    {
+      "week": "2026-W04",
+      "revenue": 1379221.0,
+      "orders": 2135,
+      "quantity": 8586
+    },
+    {
+      "week": "2026-W05",
+      "revenue": 1258989.0,
+      "orders": 2021,
+      "quantity": 7892
+    },
+    {
+      "week": "2026-W06",
+      "revenue": 1364207.0,
+      "orders": 2174,
+      "quantity": 8524
+    },
+    {
+      "week": "2026-W07",
+      "revenue": 1304846.0,
+      "orders": 2115,
+      "quantity": 8238
+    },
+    {
+      "week": "2026-W08",
+      "revenue": 1318966.0,
+      "orders": 2113,
+      "quantity": 8155
+    },
+    {
+      "week": "2026-W09",
+      "revenue": 1336852.0,
+      "orders": 2144,
+      "quantity": 8371
+    },
+    {
+      "week": "2026-W10",
+      "revenue": 1286786.0,
+      "orders": 2091,
+      "quantity": 8121
+    },
+    {
+      "week": "2026-W11",
+      "revenue": 1270598.0,
+      "orders": 2087,
+      "quantity": 7994
+    },
+    {
+      "week": "2026-W12",
+      "revenue": 1297126.0,
+      "orders": 2096,
+      "quantity": 8136
+    },
+    {
+      "week": "2026-W13",
+      "revenue": 1310374.0,
+      "orders": 2065,
+      "quantity": 8186
+    },
+    {
+      "week": "2026-W14",
+      "revenue": 1331564.0,
+      "orders": 2111,
+      "quantity": 8350
+    },
+    {
+      "week": "2026-W15",
+      "revenue": 1377009.0,
+      "orders": 2147,
+      "quantity": 8603
+    },
+    {
+      "week": "2026-W16",
+      "revenue": 1306535.0,
+      "orders": 2109,
+      "quantity": 8173
+    },
+    {
+      "week": "2026-W17",
+      "revenue": 1300069.0,
+      "orders": 2095,
+      "quantity": 8223
+    },
+    {
+      "week": "2026-W18",
+      "revenue": 1373391.0,
+      "orders": 2181,
+      "quantity": 8559
+    },
+    {
+      "week": "2026-W19",
+      "revenue": 1325979.0,
+      "orders": 2145,
+      "quantity": 8360
+    },
+    {
+      "week": "2026-W20",
+      "revenue": 1318096.0,
+      "orders": 2099,
+      "quantity": 8236
+    },
+    {
+      "week": "2026-W21",
+      "revenue": 1403882.0,
+      "orders": 2224,
+      "quantity": 8793
+    },
+    {
+      "week": "2026-W22",
+      "revenue": 1383730.0,
+      "orders": 2149,
+      "quantity": 8543
+    },
+    {
+      "week": "2026-W23",
+      "revenue": 1340809.0,
+      "orders": 2169,
+      "quantity": 8406
+    },
+    {
+      "week": "2026-W24",
+      "revenue": 568452.0,
+      "orders": 897,
+      "quantity": 3520
+    }
+  ],
+  "byOutlet": [
+    {
+      "outlet": "Koramangala",
+      "revenue": 16694474.0,
+      "orders": 26619,
+      "quantity": 104311,
+      "percentage": 24.03
+    },
+    {
+      "outlet": "Indiranagar",
+      "revenue": 15184553.0,
+      "orders": 24130,
+      "quantity": 95051,
+      "percentage": 21.85
+    },
+    {
+      "outlet": "HSR Layout",
+      "revenue": 12500980.0,
+      "orders": 19834,
+      "quantity": 78080,
+      "percentage": 17.99
+    },
+    {
+      "outlet": "Whitefield",
+      "revenue": 9778659.0,
+      "orders": 15477,
+      "quantity": 60967,
+      "percentage": 14.07
+    },
+    {
+      "outlet": "JP Nagar",
+      "revenue": 8279539.0,
+      "orders": 13256,
+      "quantity": 51946,
+      "percentage": 11.92
+    },
+    {
+      "outlet": "MG Road",
+      "revenue": 7042747.0,
+      "orders": 11162,
+      "quantity": 44093,
+      "percentage": 10.14
+    }
+  ],
+  "byCategory": [
+    {
+      "category": "Burgers",
+      "revenue": 26907950.0,
+      "orders": 70603,
+      "quantity": 146320,
+      "percentage": 38.73
+    },
+    {
+      "category": "Combos",
+      "revenue": 20436831.0,
+      "orders": 36545,
+      "quantity": 60509,
+      "percentage": 29.41
+    },
+    {
+      "category": "Sides",
+      "revenue": 9030817.0,
+      "orders": 44932,
+      "quantity": 78353,
+      "percentage": 13.0
+    },
+    {
+      "category": "Drinks",
+      "revenue": 5982864.0,
+      "orders": 40550,
+      "quantity": 69745,
+      "percentage": 8.61
+    },
+    {
+      "category": "Wraps",
+      "revenue": 4241899.0,
+      "orders": 17389,
+      "quantity": 26651,
+      "percentage": 6.11
+    },
+    {
+      "category": "Desserts",
+      "revenue": 2251871.0,
+      "orders": 14640,
+      "quantity": 22219,
+      "percentage": 3.24
+    },
+    {
+      "category": "Extras",
+      "revenue": 628720.0,
+      "orders": 19809,
+      "quantity": 30651,
+      "percentage": 0.9
+    }
+  ],
+  "byOrderType": [
+    {
+      "orderType": "Dine-In",
+      "revenue": 31386230.0,
+      "orders": 49784,
+      "quantity": 196205,
+      "percentage": 45.06
+    },
+    {
+      "orderType": "Delivery",
+      "revenue": 24127981.0,
+      "orders": 38555,
+      "quantity": 150842,
+      "percentage": 34.9
+    },
+    {
+      "orderType": "Takeaway",
+      "revenue": 13966741.0,
+      "orders": 22139,
+      "quantity": 87401,
+      "percentage": 20.04
+    }
+  ],
+  "bySettlement": [
+    {
+      "settlement": "Cash/Card/Coupon",
+      "revenue": 44033722.0,
+      "orders": 69948,
+      "quantity": 275368,
+      "percentage": 63.38
+    },
+    {
+      "settlement": "ZomatoPay",
+      "revenue": 10903852.0,
+      "orders": 17465,
+      "quantity": 68309,
+      "percentage": 15.69
+    },
+    {
+      "settlement": "SwiggyPay",
+      "revenue": 10881397.0,
+      "orders": 17262,
+      "quantity": 67905,
+      "percentage": 15.66
+    },
+    {
+      "settlement": "Dineout",
+      "revenue": 3661981.0,
+      "orders": 5803,
+      "quantity": 22866,
+      "percentage": 5.27
+    }
+  ],
+  "byItem": [
+    {
+      "item": "Family Feast Combo",
+      "category": "Combos",
+      "revenue": 7345537.0,
+      "quantity": 12263,
+      "orders": 8442,
+      "avgPrice": 599.0
+    },
+    {
+      "item": "Double Burger Combo",
+      "category": "Combos",
+      "revenue": 3911152.0,
+      "quantity": 11888,
+      "orders": 8265,
+      "avgPrice": 329.0
+    },
+    {
+      "item": "Double Chicken Burger",
+      "category": "Burgers",
+      "revenue": 3620460.0,
+      "quantity": 14540,
+      "orders": 10021,
+      "avgPrice": 249.0
+    },
+    {
+      "item": "Chicken Combo Meal",
+      "category": "Combos",
+      "revenue": 3414960.0,
+      "quantity": 12240,
+      "orders": 8420,
+      "avgPrice": 279.0
+    },
+    {
+      "item": "Smoky BBQ Burger",
+      "category": "Burgers",
+      "revenue": 3201999.0,
+      "quantity": 14621,
+      "orders": 10048,
+      "avgPrice": 219.0
+    },
+    {
+      "item": "Cheese Blast Burger",
+      "category": "Burgers",
+      "revenue": 3069792.0,
+      "quantity": 14688,
+      "orders": 10146,
+      "avgPrice": 209.0
+    },
+    {
+      "item": "Burger + Fries + Coke Combo",
+      "category": "Combos",
+      "revenue": 3014892.0,
+      "quantity": 12108,
+      "orders": 8401,
+      "avgPrice": 249.0
+    },
+    {
+      "item": "Fish Fillet Burger",
+      "category": "Burgers",
+      "revenue": 2937041.0,
+      "quantity": 14759,
+      "orders": 10160,
+      "avgPrice": 199.0
+    },
+    {
+      "item": "Mushroom Swiss Burger",
+      "category": "Burgers",
+      "revenue": 2902216.0,
+      "quantity": 14584,
+      "orders": 10075,
+      "avgPrice": 199.0
+    },
+    {
+      "item": "Spicy Zinger Burger",
+      "category": "Burgers",
+      "revenue": 2769606.0,
+      "quantity": 14654,
+      "orders": 10150,
+      "avgPrice": 189.0
+    },
+    {
+      "item": "Veg Combo Meal",
+      "category": "Combos",
+      "revenue": 2750290.0,
+      "quantity": 12010,
+      "orders": 8268,
+      "avgPrice": 229.0
+    },
+    {
+      "item": "Crispy Chicken Burger",
+      "category": "Burgers",
+      "revenue": 2572409.0,
+      "quantity": 14371,
+      "orders": 9983,
+      "avgPrice": 179.0
+    },
+    {
+      "item": "Paneer Makhani Burger",
+      "category": "Burgers",
+      "revenue": 2469090.0,
+      "quantity": 14610,
+      "orders": 10027,
+      "avgPrice": 169.0
+    },
+    {
+      "item": "Classic Veg Burger",
+      "category": "Burgers",
+      "revenue": 1915779.0,
+      "quantity": 14851,
+      "orders": 10156,
+      "avgPrice": 129.0
+    },
+    {
+      "item": "Chicken Nuggets (6 pc)",
+      "category": "Sides",
+      "revenue": 1565196.0,
+      "quantity": 9844,
+      "orders": 6866,
+      "avgPrice": 159.0
+    },
+    {
+      "item": "Cheese Loaded Fries",
+      "category": "Sides",
+      "revenue": 1474355.0,
+      "quantity": 9895,
+      "orders": 6811,
+      "avgPrice": 149.0
+    },
+    {
+      "item": "Aloo Tikki Burger",
+      "category": "Burgers",
+      "revenue": 1449558.0,
+      "quantity": 14642,
+      "orders": 10098,
+      "avgPrice": 99.0
+    },
+    {
+      "item": "Grilled Chicken Wrap",
+      "category": "Wraps",
+      "revenue": 1205207.0,
+      "quantity": 6733,
+      "orders": 4603,
+      "avgPrice": 179.0
+    },
+    {
+      "item": "Chocolate Shake",
+      "category": "Drinks",
+      "revenue": 1154452.0,
+      "quantity": 7748,
+      "orders": 5369,
+      "avgPrice": 149.0
+    },
+    {
+      "item": "Peri Peri Fries",
+      "category": "Sides",
+      "revenue": 1153229.0,
+      "quantity": 9691,
+      "orders": 6722,
+      "avgPrice": 119.0
+    },
+    {
+      "item": "Strawberry Shake",
+      "category": "Drinks",
+      "revenue": 1144320.0,
+      "quantity": 7680,
+      "orders": 5376,
+      "avgPrice": 149.0
+    },
+    {
+      "item": "Paneer Tikka Wrap",
+      "category": "Wraps",
+      "revenue": 1135342.0,
+      "quantity": 6718,
+      "orders": 4637,
+      "avgPrice": 169.0
+    },
+    {
+      "item": "Potato Wedges",
+      "category": "Sides",
+      "revenue": 1123122.0,
+      "quantity": 9438,
+      "orders": 6586,
+      "avgPrice": 119.0
+    },
+    {
+      "item": "Onion Rings",
+      "category": "Sides",
+      "revenue": 1085640.0,
+      "quantity": 9960,
+      "orders": 6884,
+      "avgPrice": 109.0
+    },
+    {
+      "item": "Cold Coffee",
+      "category": "Drinks",
+      "revenue": 1006200.0,
+      "quantity": 7800,
+      "orders": 5298,
+      "avgPrice": 129.0
+    },
+    {
+      "item": "Falafel Wrap",
+      "category": "Wraps",
+      "revenue": 991595.0,
+      "quantity": 6655,
+      "orders": 4601,
+      "avgPrice": 149.0
+    },
+    {
+      "item": "Garlic Bread",
+      "category": "Sides",
+      "revenue": 978714.0,
+      "quantity": 9886,
+      "orders": 6789,
+      "avgPrice": 99.0
+    },
+    {
+      "item": "Classic Salted Fries",
+      "category": "Sides",
+      "revenue": 975051.0,
+      "quantity": 9849,
+      "orders": 6908,
+      "avgPrice": 99.0
+    },
+    {
+      "item": "Veg Kathi Wrap",
+      "category": "Wraps",
+      "revenue": 909755.0,
+      "quantity": 6545,
+      "orders": 4535,
+      "avgPrice": 139.0
+    },
+    {
+      "item": "Brownie Sundae",
+      "category": "Desserts",
+      "revenue": 771728.0,
+      "quantity": 5552,
+      "orders": 3822,
+      "avgPrice": 139.0
+    },
+    {
+      "item": "Coleslaw",
+      "category": "Sides",
+      "revenue": 675510.0,
+      "quantity": 9790,
+      "orders": 6740,
+      "avgPrice": 69.0
+    },
+    {
+      "item": "Ice Cream Tub",
+      "category": "Desserts",
+      "revenue": 656047.0,
+      "quantity": 5513,
+      "orders": 3776,
+      "avgPrice": 119.0
+    },
+    {
+      "item": "Iced Tea",
+      "category": "Drinks",
+      "revenue": 614620.0,
+      "quantity": 7780,
+      "orders": 5365,
+      "avgPrice": 79.0
+    },
+    {
+      "item": "Choco Lava Cake",
+      "category": "Desserts",
+      "revenue": 549549.0,
+      "quantity": 5551,
+      "orders": 3847,
+      "avgPrice": 99.0
+    },
+    {
+      "item": "Fresh Lime Soda",
+      "category": "Drinks",
+      "revenue": 530472.0,
+      "quantity": 7688,
+      "orders": 5288,
+      "avgPrice": 69.0
+    },
+    {
+      "item": "Fanta",
+      "category": "Drinks",
+      "revenue": 461852.0,
+      "quantity": 7828,
+      "orders": 5406,
+      "avgPrice": 59.0
+    },
+    {
+      "item": "Coke",
+      "category": "Drinks",
+      "revenue": 460377.0,
+      "quantity": 7803,
+      "orders": 5361,
+      "avgPrice": 59.0
+    },
+    {
+      "item": "Sprite",
+      "category": "Drinks",
+      "revenue": 457191.0,
+      "quantity": 7749,
+      "orders": 5347,
+      "avgPrice": 59.0
+    },
+    {
+      "item": "Extra Patty",
+      "category": "Extras",
+      "revenue": 353940.0,
+      "quantity": 5899,
+      "orders": 4119,
+      "avgPrice": 60.0
+    },
+    {
+      "item": "Soft Serve Cone",
+      "category": "Desserts",
+      "revenue": 274547.0,
+      "quantity": 5603,
+      "orders": 3877,
+      "avgPrice": 49.0
+    },
+    {
+      "item": "Mineral Water",
+      "category": "Drinks",
+      "revenue": 153380.0,
+      "quantity": 7669,
+      "orders": 5320,
+      "avgPrice": 20.0
+    },
+    {
+      "item": "Extra Cheese Slice",
+      "category": "Extras",
+      "revenue": 153000.0,
+      "quantity": 6120,
+      "orders": 4240,
+      "avgPrice": 25.0
+    },
+    {
+      "item": "Dip - Cheese",
+      "category": "Extras",
+      "revenue": 121780.0,
+      "quantity": 6089,
+      "orders": 4236,
+      "avgPrice": 20.0
+    },
+    {
+      "item": "Dip - BBQ",
+      "category": "Extras",
+      "revenue": 0.0,
+      "quantity": 6264,
+      "orders": 4309,
+      "avgPrice": 0.0
+    },
+    {
+      "item": "Dip - Mayo",
+      "category": "Extras",
+      "revenue": 0.0,
+      "quantity": 6279,
+      "orders": 4302,
+      "avgPrice": 0.0
+    }
+  ],
+  "insights": {
+    "topOutlet": {
+      "name": "Koramangala",
+      "revenue": 16694474.0,
+      "percentage": 24.03
+    },
+    "topCategory": {
+      "name": "Burgers",
+      "revenue": 26907950.0,
+      "percentage": 38.73
+    },
+    "bestSellingItem": {
+      "name": "Family Feast Combo",
+      "category": "Combos",
+      "revenue": 7345537.0,
+      "quantity": 12263
+    },
+    "mostUsedOrderType": {
+      "name": "Dine-In",
+      "orders": 49784,
+      "percentage": 45.06
+    },
+    "peakRevenuePeriod": {
+      "date": "2026-02-13",
+      "revenue": 231506.0,
+      "orders": 363
+    },
+    "aov": 628.91
+  }
+}
