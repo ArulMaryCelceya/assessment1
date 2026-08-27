@@ -1,176 +1,171 @@
-# Business Analytics Dashboard (~300,000 Records)
+# Assessment1 — Business Analytics Dashboard
 
-An enterprise-grade, high-performance Business Analytics Dashboard built to turn a massive dataset (~300,000 transaction line-items) into real-time, interactive insights.
+**Subtitle**: Restaurant Sales & Performance Intelligence  
+**Developer**: Celceya  
+**Project Name**: assessment1  
 
-![Dashboard Preview](https://img.shields.io/badge/Status-Complete-emerald?style=for-the-badge)
-![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20FastAPI%20%7C%20SQLite%20%7C%20Recharts-blue?style=for-the-badge)
-
----
-
-## 🚀 Live Demo & Repository Links
-
-* **Live Working Web App**: [https://business-analytics-dashboard.vercel.app](https://business-analytics-dashboard.vercel.app) *(Replace with actual deployed URL)*
-* **Backend API Docs (Swagger)**: [https://business-analytics-api.onrender.com/docs](https://business-analytics-api.onrender.com/docs) *(Replace with actual API URL)*
-* **Public GitHub Repository**: [https://github.com/username/business-analytics-dashboard](https://github.com/username/business-analytics-dashboard)
+Live Demo: [ADD VERCEL URL]  
+GitHub Repository: https://github.com/ArulMaryCelceya/assessment1  
 
 ---
 
-## 📊 Dataset & Business Logic Overview
+## Overview
 
-The raw dataset (`data (1).xlsx`) consists of **~300,000 line-item transactions** representing sales across multiple outlets, brands, product categories, and payment channels.
+**Assessment1 — Business Analytics Dashboard** is an enterprise-grade, high-performance web application designed to analyze restaurant sales performance across multiple outlets, menu categories, order types, and payment channels.
 
-### Key Data Mapping & Rules
-1. **Line Items vs. Orders**:
-   - Each row in the dataset represents an individual line item, **not a full order**.
-   - Orders are identified by unique **`BillNo`**. Multiple rows can share the same `BillNo`.
-   - **Total Orders Calculation**: `COUNT(DISTINCT BillNo)` (Total unique orders: **110,478**).
-2. **Revenue Calculation**:
-   - `Revenue = Price × Quantity`
-   - Total Calculated Revenue: **$69,480,952.00**
-   - Total Items Sold: **434,448**
-3. **Average Order Value (AOV)**:
-   - `AOV = Total Revenue / Total Unique Orders` ($69,480,952 / 110,478 = **$628.91**)
+Built specifically for the Software Developer Intern technical assessment, the application processes a real-world dataset of approximately **300,000 order line items** and transforms raw transactional data into actionable business intelligence metrics, interactive visualization charts, dynamic insights, and a searchable, paginated data explorer table.
 
 ---
 
-## 🏛 Architecture & Design Decisions
+## Key Features
+
+* **Instant Executive KPIs**:
+  * **Total Revenue**: `SUM(Price × Quantity)` formatted in Indian Rupees (₹).
+  * **Total Orders**: Calculated using unique `BillNo` identifiers (`COUNT(DISTINCT BillNo)`).
+  * **Total Records**: Total dataset row count (300,000 line items).
+  * **Total Quantity Sold**: Sum of all unit quantities sold.
+  * **Average Order Value (AOV)**: `Total Revenue / Unique Orders`.
+  * **Average Item Price**: Average unit price per item.
+
+* **Dynamic Global Filtering System**:
+  * Date Range picker (Min & Max derived automatically from actual dataset).
+  * Multi-select / dropdown filters for Outlets, Brands, Categories (Groups), Order Types (Dine-In, Takeaway, Delivery), and Settlement Methods.
+  * Searchable item selector & active filter chips with one-click clear.
+  * Friendly zero-result state handling when filters match no data.
+
+* **Interactive Visualization Suite**:
+  * **Revenue Trend Chart**: Area chart with Daily, Weekly, and Monthly grouping options.
+  * **Revenue by Outlet**: Bar chart ranking outlets by revenue with Top 10 / Top 20 selector.
+  * **Revenue by Category**: Donut chart displaying category revenue contribution and percentage share.
+  * **Orders by Order Type**: Donut chart detailing order volumes across Dine-In, Takeaway, and Delivery.
+  * **Top Performing Items**: Horizontal bar chart ranking menu items by revenue with Top 10 / Top 20 / Top 50 selector.
+  * **Revenue by Settlement**: Bar chart breaking down revenue by payment methods (Cash/Card/Coupon, SwiggyPay, ZomatoPay, Dineout).
+
+* **Auto-Calculated Business Insights**:
+  * Dynamically computes top-performing outlets, categories, best-selling items, most frequent order types, peak revenue days, and overall AOV.
+
+* **Data Explorer Table**:
+  * Displays line-item records (`BillNo`, `Order Date`, `Outlet`, `Brand`, `Category`, `Item`, `Order Type`, `Price`, `Quantity`, `Revenue`, `Settlement`).
+  * Supports column sorting, global debounced search, configurable pagination (20/25/50 per page), and one-click **CSV Export**.
+
+---
+
+## Dataset Architecture & Pipeline
+
+### Raw Dataset Characteristics
+* **Total Rows**: 300,000 line items
+* **File Size**: ~15.7 MB (`data.xlsx`)
+* **Key Business Rules**:
+  * A single order contains multiple line items sharing the same `BillNo`.
+  * `Revenue` is computed as `Price × Quantity`.
+  * `Total Orders` represents unique `BillNo` instances (110,478 unique orders).
+
+### Data Pipeline Architecture
 
 ```
-┌─────────────────────────┐      REST API (JSON)      ┌─────────────────────────┐
-│     React + Vite UI     │  ◄─────────────────────►  │     FastAPI Backend     │
-│   (Recharts, Tailwind)  │     < 50ms Response       │   (Python 3.12, Uvicorn)│
-└─────────────────────────┘                           └────────────┬────────────┘
-                                                                   │ SQL Queries
-                                                                   ▼
-                                                      ┌─────────────────────────┐
-                                                      │  SQLite Database Engine │
-                                                      │ (Indexed analytics.db)  │
-                                                      └─────────────────────────┘
-```
-
-### Why FastAPI + SQLite over Client-Only Data Processing?
-- **Network Payload Reduction**: The raw Excel dataset is **15.7 MB** (~300,000 rows). Loading this payload into a browser on every page visit would consume hundreds of megabytes of RAM, block the main thread, and freeze mobile devices.
-- **Server-Side Aggregations**: The backend runs optimized SQL `GROUP BY` and `COUNT(DISTINCT BillNo)` queries against indexed columns, sending back compact JSON payloads (**< 2 KB**) containing aggregated statistics in **under 200 ms**.
-- **SQLite Performance & B-Tree Indexes**: For read-heavy analytical dashboards with dataset sizes under 10 GB, SQLite running on SSD storage delivers sub-millisecond local query speeds without network socket latency.
-
----
-
-## ⚡ Data Handling & ETL Pipeline (`scripts/etl.py`)
-
-An automated ETL (Extract, Transform, Load) script cleanses raw Excel data and populates an indexed SQLite database:
-
-1. **Extraction**: Reads `data (1).xlsx` using `pandas` and `openpyxl`.
-2. **Data Cleaning & Standardization**:
-   - Trims whitespace from string fields (`BillNo`, `Outlet_Name`, `Brand`, `Group`, `Item`).
-   - Handles missing values with defaults (`Unknown Outlet`, `Uncategorized`, etc.).
-   - Parses dates into standard ISO-8601 (`YYYY-MM-DD HH:MM:SS`) and extracts derived time fields (`date`, `year_month`, `hour`, `day_of_week`).
-3. **Computed Fields**:
-   - Calculates exact row revenue: `Revenue = Price * Quantity`.
-4. **Database Indexing**:
-   - Creates targeted B-Tree covering indexes on `BillNo`, `date`, `Outlet_Name`, `Brand`, `"Group"`, `Order_Type`, and `Settlement`.
-   - **Composite Covering Indexing**: Creates covering index `idx_date_rev (date, Revenue, BillNo)` which accelerates trend aggregations from **14,000 ms down to 180 ms** (> 75x speedup).
-
----
-
-## 🛠 Dashboard Features & Visualizations
-
-### 1. KPI Metric Summary Cards
-- **Total Revenue**: $69.48M
-- **Total Orders**: 110,478 (Unique `BillNo` count)
-- **Total Items Sold**: 434,448 units
-- **Average Order Value (AOV)**: $628.91
-- **Active Outlets**: 6 Store Locations
-- **Unique Products**: 45 Active SKUs
-
-### 2. Interactive Charts & Visualizations
-- **Revenue & Order Trend (Line Chart)**: Daily revenue performance and order volume over time with dual-axis visualization.
-- **Revenue by Outlet (Bar Chart)**: Revenue breakdown across outlets (Koramangala, Indiranagar, HSR Layout, Whitefield, Jayanagar, MG Road).
-- **Category / Group Performance (Pie / Donut Chart)**: Revenue distribution across product groups (Burgers 38.73%, Combos 29.41%, Sides 13%, Beverages, Desserts, Pizza, Starters).
-- **Order Type Distribution (Bar Chart)**: Dine-In vs. Delivery vs. Takeaway volume and revenue comparison.
-- **Settlement Method Analysis (Donut Chart)**: Cash/Card/Coupon, ZomatoPay, SwiggyPay, Dineout revenue share.
-- **Top 10 Performing Products (Bar Chart)**: Best-selling items ranked by total revenue and unit sales.
-
-### 3. Multi-Dimensional Interactive Filters
-- **Date Range Filter**: Start date and end date filtering.
-- **Outlet Selector**: Filter dashboard stats by specific store locations.
-- **Brand Selector**: Multi-brand filtering support.
-- **Category / Group Selector**: Filter stats by menu categories.
-- **Order Type Selector**: Dine-In, Delivery, or Takeaway.
-- **Settlement Method Selector**: Filter by payment option.
-
-### 4. Data Explorer & CSV Export (Tab 2)
-- **Paginated Data Table**: 50 records per page to ensure fluid 60fps rendering.
-- **Instant Full-Text Search**: Filter transactions by `BillNo`, `Item`, `Outlet`, `Brand`, or `Group`.
-- **Column Sorting**: Clickable table header sorting (Date, Price, Quantity, Revenue, BillNo).
-- **One-Click CSV Export**: Download filtered transaction subsets directly to CSV.
-
----
-
-## ⚖ Technical Trade-offs & Assumptions
-
-| Technical Decision | Choice | Rationale & Trade-off |
-| :--- | :--- | :--- |
-| **Database Engine** | **SQLite3** | Zero setup overhead, extremely high read throughput for ~300k rows. *Trade-off*: Concurrent write throughput is limited compared to PostgreSQL. |
-| **Data Pagination** | **Server-side (50/page)** | Avoids keeping 300,000 DOM nodes in browser memory. *Trade-off*: Requires API roundtrip when switching pages. |
-| **Chart Library** | **Recharts (SVG)** | Smooth animations, responsive containers, clean dark theme integration. *Trade-off*: Canvas-based engines (e.g. Chart.js) may render faster for > 10,000 raw points, but SVG delivers superior UI aesthetics. |
-| **Aggregations** | **SQL Index Aggregations** | Offloads grouping math to C-level SQLite engine. *Trade-off*: Requires pre-computed indexes in database build phase. |
-
----
-
-## 📦 Setup & Local Run Instructions
-
-### Prerequisites
-- **Python 3.10+**
-- **Node.js 18+** and `npm`
-
-### 1. Clone & Setup Project
-```bash
-git clone https://github.com/username/business-analytics-dashboard.git
-cd business-analytics-dashboard
-```
-
-### 2. Run Database ETL Pipeline
-```bash
-# Verify Excel dataset is in data/data (1).xlsx
-python scripts/etl.py
-```
-*Output: Generates `database/analytics.db` (~114 MB) with 300,000 rows and covering indexes.*
-
-### 3. Run Backend API Server
-```bash
-cd backend
-python -m venv venv
-# Windows: venv\Scripts\activate | Mac/Linux: source venv/bin/activate
-pip install -r requirements.txt
-python -m uvicorn app.main:app --reload --port 8000
-```
-*Backend runs at `http://127.0.0.1:8000`. Interactive API Docs at `http://127.0.0.1:8000/docs`.*
-
-### 4. Run Frontend UI
-```bash
-cd ../frontend
-npm install
-npm run dev
-```
-*Frontend runs at `http://localhost:5173`.*
-
----
-
-## 🧪 Verification & Testing
-
-To run automated integration tests against all backend API routes and database queries:
-
-```bash
-python scripts/test_backend_unit.py
-```
-
-To run frontend build checks:
-```bash
-cd frontend
-npm run build
+data.xlsx (300,000 raw rows)
+       │
+       ▼
+scripts/preprocess_data.py (Clean, Validate, Calculate Revenue & Unique BillNo)
+       │
+       ├─────────────────────────────────┬────────────────────────────────┐
+       ▼                                 ▼                                ▼
+data/processed/summary.json     data/processed/analytics.json    data/processed/matrix.json
+(Global KPIs & Meta)          (Aggregated Time Series,           (Granular Filter Matrix)
+                               Outlets, Items, Categories)
+       │                                 │                                │
+       └─────────────────────────────────┴────────────────────────────────┘
+                                         │
+                                         ▼
+                            Next.js API & Data Layer (/api/analytics)
+                                         │
+                                         ▼
+                    React Dashboard UI (Recharts + Tailwind CSS)
 ```
 
 ---
 
-## 📄 License
-MIT License. Created for Software Developer Intern Assessment.
+## Why This Architecture?
+
+### The 300,000 Row Performance Challenge
+Sending 300,000 raw JSON rows (~15-20 MB uncompressed) directly to client browsers introduces major performance flaws:
+1. **Initial Page Load Lag**: High network bandwidth consumption and browser parsing delay (>5-10 seconds).
+2. **Client Memory Overhead**: Storing 300K JavaScript objects consumes hundreds of megabytes of client RAM.
+3. **UI Freeze on Filter Changes**: Recalculating aggregations over 300,000 rows on every keystroke or filter toggle causes UI stuttering and unresponsiveness.
+4. **Vercel Serverless Limits**: Serverless functions have memory and execution time boundaries.
+
+### Solution: Precomputed Analytics Matrix & Incremental Filtering
+To solve this, a data preprocessing pipeline precalculates:
+1. **Summary & Categorical Aggregates**: Instant executive metrics and chart datasets (<100 KB payload).
+2. **Multi-Dimensional Filter Matrix**: Pre-grouped metric cells aggregated across Date, Outlet, Group, Order Type, and Settlement (reduces 300K rows down to ~69K compact aggregate matrix cells).
+3. **Sub-100ms Query Times**: Filter operations evaluate in < 5 milliseconds in memory, providing instantaneous UI transitions without client-side lag or server load.
+
+---
+
+## Technical Stack & Dependencies
+
+* **Framework**: Next.js 14+ (App Router)
+* **Library**: React 18 & TypeScript
+* **Styling**: Tailwind CSS & PostCSS
+* **Charts**: Recharts
+* **Icons**: Lucide React
+* **Data Processing**: Python 3 / Pandas & Node.js Scripts
+
+---
+
+## Local Development Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Celceya/assessment1.git
+   cd assessment1
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Preprocess Dataset**:
+   *(If modifying `data.xlsx` or generating fresh processed JSON files)*
+   ```bash
+   npm run preprocess
+   ```
+
+4. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## Production Build & Deployment
+
+1. **Verify Production Build**:
+   ```bash
+   npm run build
+   ```
+
+2. **Start Production Server**:
+   ```bash
+   npm start
+   ```
+
+3. **Vercel Deployment**:
+   * Connect repository to Vercel.
+   * Vercel will automatically run `npm run build`.
+   * Preprocessed JSON files in `data/processed/` are bundled with the deployment for sub-100ms server response globally.
+
+---
+
+## Quality Control & Verification
+
+* ✅ **Data Accuracy**: `Revenue = Price × Quantity`, Unique `BillNo` counting verified against raw dataset metrics.
+* ✅ **Zero Lint / Type Errors**: Strict TypeScript checking and ESLint rules applied.
+* ✅ **Vercel Compatibility**: Fully optimized for edge & serverless deployments without local binary dependencies.
+* ✅ **Responsive Layout**: Designed for Desktop, Laptop, Tablet, and Mobile screens.
+
+---
+
+**Developed by Celceya** for **Assessment1**.

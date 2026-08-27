@@ -1,38 +1,33 @@
-# Node dependencies
-node_modules/
-frontend/node_modules/
-
-# Build output
-dist/
-frontend/dist/
-
-# Python Virtual Environment & Cache
+# dependencies
+/node_modules
+/.pnpm-store
 venv/
 backend/venv/
 __pycache__/
-backend/app/__pycache__/
-backend/app/*/__pycache__/
 *.pyc
-*.pyo
-*.pyd
-.pytest_cache/
 
-# Environment variables
+# next.js build output
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
 .env
-backend/.env
+.env*.local
 
-# IDE & OS files
-.vscode/
-.idea/
+# os generated files
 .DS_Store
 Thumbs.db
 
-# SQLite database lock / journal files
-database/*.db-journal
-database/*.db-wal
-database/*.db
-node_modules/
-.env
-.venv/
-__pycache__/
-dist/
+# large raw dataset binary (keep out of git repository as per assessment instructions)
+*.xlsx
+*.xls

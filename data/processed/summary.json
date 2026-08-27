@@ -1,0 +1,44 @@
+{
+  "totalRows": 300000,
+  "totalRevenue": 69480952.0,
+  "uniqueOrders": 110478,
+  "totalQuantity": 434448,
+  "aov": 628.91,
+  "avgItemPrice": 159.89,
+  "dateRange": {
+    "min": "2025-06-17",
+    "max": "2026-06-16"
+  },
+  "outlets": [
+    "HSR Layout",
+    "Indiranagar",
+    "JP Nagar",
+    "Koramangala",
+    "MG Road",
+    "Whitefield"
+  ],
+  "brands": [
+    "Burger Town"
+  ],
+  "categories": [
+    "Burgers",
+    "Combos",
+    "Desserts",
+    "Drinks",
+    "Extras",
+    "Sides",
+    "Wraps"
+  ],
+  "orderTypes": [
+    "Delivery",
+    "Dine-In",
+    "Takeaway"
+  ],
+  "settlements": [
+    "Cash/Card/Coupon",
+    "Dineout",
+    "SwiggyPay",
+    "ZomatoPay"
+  ],
+  "totalItems": 45
+}
